@@ -72,6 +72,7 @@ Plsssss no pay wall:(
 <img src="assets/bitdancer.png" width="888"/>
 <h3 align="center">꧖ꦿꦸ</h3>
 <h1 align="center">Rendering API</h1>
+
 ### Metal
 ###### MacOS Only
 ```json
@@ -106,6 +107,7 @@ Plsssss no pay wall:(
 }
 ```
 <h1 align="center">Lightning Technologies</h1>
+
 ### Voxel Lighting (Phase 1)
 ```json
 {
@@ -125,6 +127,7 @@ Plsssss no pay wall:(
 }
 ```
 <h1 align="center">Graphical Settings</h1>
+
 ### Makes stuff slightly brighter
 ```json
 {
@@ -203,6 +206,7 @@ High
 9 = 18
 10 = 21
 ```
+
 ### FRM 21 Graphics Quality Slider
 ```json
 {
