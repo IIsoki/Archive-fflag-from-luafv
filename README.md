@@ -72,7 +72,7 @@ Plsssss no pay wall:(
 <img src="assets/bitdancer.png" width="888"/>
 <h3 align="center">꧖ꦿꦸ</h3>
 <h1 align="center">Rendering API</h1>
-
+</h4>
 ### Metal
 ###### MacOS Only
 ```json
