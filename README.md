@@ -1,49 +1,35 @@
-# Archive-fflag-from-luafv
-Plsssss no pay wall:(
-
+> [!NOTE]
+> If you find our repository useful don't forget to star!
 
 <h4 align="center"><a href="https://github.com/luafv/rbxflags/tree/clean">clean version</a> ✧ <a href="https://discord.gg/HNe7fzR9xg">discord</a> ✧ <a href="https://github.com/luafv/rbxperf">performance list</a> </h4>
+
 <h3 align="center">
   <img src="assets/newgens.gif" width="256" alt="NEWGENS...">
 </h3>
+
 <h1 align="center">rbxflags</h1>
-<h3 align="center">
-  <a href="https://bloxflip.com/a/bloxstrap">
-    <img src="https://bloxflip.com/logotype.svg" width="200">
-  </a>
-</h3> 
- > [!CAUTION]
- > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
- #### Version: `8.4.24` - `8.10.24`
- * **176 Currently Listed**
- * `Vehicle Speed 1` `Vehicle Speed 2` `Void Unanchored Parts` `Enable Better Haptics` `Remove Haptics Option` `Custom Accessory Positions`
 
- ## Bloxstrap How to Use:
- 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
+> [!CAUTION]
+> Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
-    
-          
-            
-    
+#### Version: `8.18.24`
+* **180 Currently Listed**
+* **Updated Links**
+* **Game Specific Category**
+- [ ] Assign new maintainers
+- [ ] Flag Cleanup 2 (We remove all patched FastFlags)
+- [x] Make everything we have public
+- [x] Have atleast 1 Working Fast Flag for Game Categories Section before we actually publish.
 
-          
-          Expand Down
-          
-            
-    
-
-          
-          Expand Up
-    
-    @@ -881,339 +882,11 @@ High
-  
+## Bloxstrap How to Use:
+1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
 2. **Navigate to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.**
 3. **Paste in the JSON.**
 4. **Save and your good to go!**
+
 <img src="/assets/tutorial260.gif" width="750"/>
 
 ## Normal Roblox Bootstrapper  How to Use:
-
 ###### You can also do Roblox Studio
 1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
 2. **Identify the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ You can do this for Roblox Studio too.**
@@ -51,6 +37,7 @@ Plsssss no pay wall:(
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
 5. **Save and you're good to go!**
 ###### Do note that after roblox updates you have to do this process again
+
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
 
 ## How to Use _PlaceFilter
@@ -71,13 +58,16 @@ Plsssss no pay wall:(
 * **[Audio](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#audio-related)**
 * **[Physics](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#physics-abusive)**
 * **[Abusive Visuals](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#abusive-visuals)**
+* **[Abusive Game Presets](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#abusive-game-specific-presets)**
 * **[lol](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#debug)**
 * **[Links](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#links)**
+
 <img src="assets/bitdancer.png" width="888"/>
+
 <h3 align="center">꧖ꦿꦸ</h3>
+
 <h1 align="center">Rendering API</h1>
-</h4>
 
 ### Metal
 ###### MacOS Only
@@ -112,6 +102,7 @@ Plsssss no pay wall:(
     "FFlagDebugGraphicsPreferD3D11": "True"
 }
 ```
+
 <h1 align="center">Lightning Technologies</h1>
 
 ### Voxel Lighting (Phase 1)
@@ -132,6 +123,7 @@ Plsssss no pay wall:(
     "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
+
 <h1 align="center">Graphical Settings</h1>
 
 ### Makes stuff slightly brighter
@@ -198,12 +190,16 @@ Plsssss no pay wall:(
 }
 ```
 <h4 align="center">FRM Levels</h4>
+
 ```
 Low
+
 1 = 3
 2 = 2
 3 = 6
+
 High
+
 4 = 7
 5 = 11
 6 = 14
@@ -212,7 +208,6 @@ High
 9 = 18
 10 = 21
 ```
-
 ### FRM 21 Graphics Quality Slider
 ```json
 {
@@ -366,7 +361,9 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
+
 <h1 align="center">Quality of Life</h1>
+
 ### Disable Captures Keybind
 ```json
 {
@@ -529,7 +526,9 @@ High
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+
 <h1 align="center">User Interface/Visuals</h1>
+
 ### Fix Reduced Motion Stuck
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
@@ -778,7 +777,9 @@ High
     "FFlagDebugEnableNewWebView2DevTool": "True"
 }
 ```
+
 <h1 align="center">User Interface/Visuals Experimental</h1>
+
 ### Custom Accessory Positions
 ```
 {
@@ -837,7 +838,9 @@ High
     "DFStringDefaultAvatarDeathType": "Ragdoll"
 }
 ```
+
 <h1 align="center">Audio Related</h1>
+
 ### Allows you to change voice chat distance 
 ###### default: [Min 7 Max 80]
 ```json
@@ -879,355 +882,382 @@ High
 }
 ```
 
- <h1 align="center">Physics (Abusive)</h1>
+<h1 align="center">Physics (Abusive)</h1>
 
- ### Tool Desync
- ```json
- {
-     "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
- }
- ```
- ### Remap R6 to R15 Rigs/Weird Movement
- ```json
- {
-     "FFlagRemapAnimationR6ToR15Rig": "True"
- }
- ```
- ### Weird Leg Movement
- ```json
- {
-     "DFFlagAnimatorPostProcessIK": "True"
- }
- ```
- ### Adjust Hip Height Clamps
- ###### https://www.roblox.com/bundles/63/Mage-Animation-Package
- ```json
- {
-     "DFIntHipHeightClamp": "-48"
- }
- ```
- ### Random High Jumps
- ###### https://youtu.be/2JkA4hWCAWw
- ```json
- {
-     "FFlagSimAdaptiveTimesteppingDefault2": "True",
-     "DFFlagSimHumanoidTimestepModelUpdate": "True"
- }
- ```
- ### Drunk
- ```json
- {
-     "FFlagSimAdaptiveTimesteppingDefault2": "True",
-     "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
-     "DFFlagSimHumanoidTimestepModelUpdate": "True"
- }
- ```
- ### No Animations
- ###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
- ```json
- {
-     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
- }
- ```
- ### Stick unanchored parts to you
- ##### - = up, + = down
- ```json
- {
-     "DFIntSolidFloorPercentForceApplication": "-1000",
-     "DFIntNonSolidFloorPercentForceApplication": "-5000"
- }
- ```
- ### Max Raycast Distance
- ###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
- ###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
- ```json
- {
-     "DFIntRaycastMaxDistance": "3"
- }
- ```
- ### Possible Super Jump
- ```json
- {
-     "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
- }
- ```
- ### Change DataSender Rate
- ###### a.k.a does not let you load games
- ```json
- {
-     "DFIntDataSenderRate": "-1"
- }
- ```
- ### Disable Touch Events
- ```json
- {
-     "DFIntTouchSenderMaxBandwidthBps": "-1"
- }
- ```
- ### Fake Lag
- ```json
- {
-     "DFIntS2PhysicsSenderRate": "1"
- }
- ```
- ### Invisible 1
- ###### **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
- ```json
- {
-     "DFIntS2PhysicsSenderRate": "-30"
- }
- ```
- ### Invisible 2
- ###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](https://docs.google.com/document/d/1_kQr-tkc97lcg7ZvFfJdt8UzaziIfwuJPrzR6sTOLHo/)
- ```json
- {
-     "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
- }
- ```
- ### Invisible 3
- ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
- ```json
- {
-     "DFIntPhysicsSenderMaxBandwidthBps": "1",
-     "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
- }
- ```
- ### Clientsided Invisible
- ```json
- {
-     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
- }
- ```
- ### Warp & Slowmotion
- ```json
- {
-     "DFIntMaxMissedWorldStepsRemembered": "1"
- }
- ```
- ```json
- {
-     "DFIntMaxMissedWorldStepsRemembered": "1000"
- }
- ```
- ### Noclip 1
- ###### Adjust the value so you don't fall through the ground
- ```json
- {
-     "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
- }
- ```
- ### Noclip 2
- ###### Adjust the value so you don't fall through the ground
- ```json
- {
-     "DFIntSimBroadPhasePairCountMax": "50"
- }
- ```
- ### Noclip 3
- ###### @burgerboxer & @dis_spencer
- ```json
- {
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntMaximumFreefallMoveTimeInTenths": "1000",
-     "DFIntDebugSimPrimalStiffness": "0"
- }
- ```
- ### Freeze
- ```json
- {
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntDebugSimPrimalLineSearch": "0"
- }
- ```
- ### Hip Height
- ###### Very controllable bounce, only works with negative values, 0 allows you to hover
- ```json
- {
-     "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
- }
- ```
- ### Wallglide
- ```json
- {
-     "DFIntUnstickForceAttackInTenths": "-4"
- }
- ```
- ### Network Ownership
- ###### better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
- ###### this might get you banned in some games with anticheats (Limbobbia)
- ```json
- {
-     "DFIntMinClientSimulationRadius": "2147000000",
-     "DFIntMinimalSimRadiusBuffer": "2147000000",
-     "DFIntMaxClientSimulationRadius": "2147000000"
- }
- ```
- ### Low Gravity 1
- ###### 'FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
- ###### 'DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable) 
- ###### credit [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
- ```json
- {
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntDebugSimPrimalLineSearch": "3"
- }
- ```
- ### Void Unanchored Parts
- ```json
- {
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntDebugSimPrimalLineSearch": "222"
- }
- ```
- ### Low Gravity 2
- ###### this is more buggy
- ```json
- {
-   "FFlagDebugSimDefaultPrimalSolver": "True",
-   "DFIntDebugSimPrimalPreconditioner": "100",
-   "DFIntDebugSimPrimalPreconditionerMinExp": "100",
-   "DFIntDebugSimPrimalNewtonIts": "1",
-   "FFlagDebugSimDefaultPrimalSolver": "True",
-   "DFIntDebugSimPrimalWarmstartVelocity": "-150",
-   "DFIntDebugSimPrimalWarmstartForce": "-775",
-   "DFIntDebugSimPrimalToleranceInv": "1"
- }
- ```
- ### Low Gravity 2 Control on Parts Improvement
- ```json
- {
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntDebugSimPrimalNewtonIts": "1",
-     "DFIntDebugSimPrimalPreconditioner": "15",
-     "DFIntDebugSimPrimalPreconditionerMinExp": "10",
-     "DFIntDebugSimPrimalToleranceInv": "1",
-     "DFIntDebugSimPrimalWarmstartForce": "-150",
-     "DFIntDebugSimPrimalWarmstartVelocity": "100"
- }
- ```
- ### Tool Fly
- ```json
- {
-     "DFIntMinimalSimRadiusBuffer": "2147000000",
-     "DFIntMinClientSimulationRadius": "2147000000",
-     "DFFlagSimHumanoidTimestepModelUpdate": "True",
-     "DFIntMaxClientSimulationRadius": "2147000000",
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "FFlagSimAdaptiveTimesteppingDefault2": "True",
-     "DFIntNonSolidFloorPercentForceApplication": "-12000",
-     "DFIntDebugSimPrimalPreconditioner": "100",
-     "DFIntDebugSimPrimalPreconditionerMinExp": "100",
-     "DFIntDebugSimPrimalNewtonIts": "2",
-     "DFIntDebugSimPrimalWarmstartVelocity": "-150",
-     "DFIntDebugSimPrimalWarmstartForce": "-775",
-     "DFIntDebugSimPrimalToleranceInv": "1"
- }
- ```
- ### Backwards SpeedHax
- #### Bugginess and Speed depends on the value of `DFIntDebugSimPrimalWarmstartForce` values i recommend are `775` and the value i put.
- ##### Also for `DFIntDebugSimPrimalWarmstartVelocity` probably use value `150` but its kinda hard to do it and control
- ###### I may have not found this first but i found this by myself btw
- ```json
- {
-   "DFIntDebugSimPrimalNewtonIts": "1",
-   "DFIntDebugSimPrimalPreconditioner": "69",
-   "DFIntDebugSimPrimalPreconditionerMinExp": "69",
-   "DFIntDebugSimPrimalToleranceInv": "1",
-   "DFIntDebugSimPrimalWarmstartForce": "-885",
-   "DFIntDebugSimPrimalWarmstartVelocity": "-350",
-   "FFlagDebugSimDefaultPrimalSolver": "True"
- }
- ```
- ### Vehicle Speed 1
- ```json
- {
-     "DFIntDebugSimPrimalWarmstartForce": "40",
-     "DFIntDebugSimPrimalWarmstartVelocity": "102",
-     "FFlagDebugSimDefaultPrimalSolver": "True",
-     "DFIntDebugSimPrimalLineSearch": "41"
- }
- ```
- ### Vehicle Speed 2
- ###### prob the same mess w the values maybe youll get something different
- ```json
- {
-     "DFIntDebugSimPrimalLineSearch": "50",
-     "DFIntDebugSimPrimalWarmstartVelocity": "103",
-     "DFIntDebugSimPrimalStiffness": "300",
-     "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
- }
- ```
+#### Everything exclusively Available on our Discord Server
 
- <h1 align="center">Abusive Visuals</h1>
+<!-- This is not rendered yet, Don't forget to remove this.
 
- ### Semi Fullbright
- ```json
- {
-     "FFlagFastGPULightCulling3": "True",
-     "FIntRenderShadowIntensity": "0",
-     "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-     "FFlagNewLightAttenuation": "True",
-     "FIntRenderShadowmapBias": "-1",
-     "DFFlagDebugPauseVoxelizer": "True"
- }
- ```
- ### Draws a circle under avatars
- ```json
- {
-     "FFlagDebugAvatarChatVisualization": "True",
-     "FFlagEnableInGameMenuChromeABTest2": "False"
- }
- ```
- ### Humanoid Outline
- ##### Draws an outline around every part and every humanoid
- ```json
- {
-     "DFFlagDebugDrawBroadPhaseAABBs": "True"
- }
- ```
- ### fflag above but more complex
- ##### Draws an outline around every body part
- ```json
- {
-     "DFFlagDebugDrawBvhNodes": "True"
- }
- ```
- ### Buggy ZPlane Camera
- ```json
- {
-     "FIntCameraFarZPlane": "1"
- }
- ```
- ### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
- ```json
- {
-     "FFlagDebugHumanoidRendering": "True"
- }
- ```
- ### Xray
- ```json
- {
-     "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
-     "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
-     "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
-     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
- }
- ```
+### Tool Desync
+```json
+{
+    "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+}
+```
+### Remap R6 to R15 Rigs/Weird Movement
+```json
+{
+    "FFlagRemapAnimationR6ToR15Rig": "True"
+}
+```
+### Weird Leg Movement
+```json
+{
+    "DFFlagAnimatorPostProcessIK": "True"
+}
+```
+### Adjust Hip Height Clamps
+###### https://www.roblox.com/bundles/63/Mage-Animation-Package
+```json
+{
+    "DFIntHipHeightClamp": "-48"
+}
+```
+### Random High Jumps
+###### https://youtu.be/2JkA4hWCAWw
+```json
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+### Drunk
+```json
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+### No Animations
+###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
+```json
+{
+    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
+}
+```
+### Stick unanchored parts to you
+##### - = up, + = down
+```json
+{
+    "DFIntSolidFloorPercentForceApplication": "-1000",
+    "DFIntNonSolidFloorPercentForceApplication": "-5000"
+}
+```
+### Max Raycast Distance
+###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
+###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
+```json
+{
+    "DFIntRaycastMaxDistance": "3"
+}
+```
+### Possible Super Jump
+```json
+{
+    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
+}
+```
+### Change DataSender Rate
+###### a.k.a does not let you load games
+```json
+{
+    "DFIntDataSenderRate": "-1"
+}
+```
+### Disable Touch Events
+```json
+{
+    "DFIntTouchSenderMaxBandwidthBps": "-1"
+}
+```
+### Fake Lag
+```json
+{
+    "DFIntS2PhysicsSenderRate": "1"
+}
+```
+### Invisible 1
+###### **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
+```json
+{
+    "DFIntS2PhysicsSenderRate": "-30"
+}
+```
+### Invisible 2
+###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](https://docs.google.com/document/d/1_kQr-tkc97lcg7ZvFfJdt8UzaziIfwuJPrzR6sTOLHo/)
+```json
+{
+    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
+}
+```
+### Invisible 3
+###### Restricts the client from sending any physics-related information. This means other people can topple you over.
+```json
+{
+    "DFIntPhysicsSenderMaxBandwidthBps": "1",
+    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
+}
+```
+### Clientsided Invisible
+```json
+{
+    "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
+}
+```
+### Warp & Slowmotion
+```json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1"
+}
+```
+```json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
+}
+```
+### Noclip 1
+###### Adjust the value so you don't fall through the ground
+```json
+{
+    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+### Noclip 2
+###### Adjust the value so you don't fall through the ground
+```json
+{
+    "DFIntSimBroadPhasePairCountMax": "50"
+}
+```
+### Noclip 3
+###### @burgerboxer & @dis_spencer
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+    "DFIntDebugSimPrimalStiffness": "0"
+}
+```
+### Freeze
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "0"
+}
+```
+### Hip Height
+###### Very controllable bounce, only works with negative values, 0 allows you to hover
+```json
+{
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+}
+```
+### Wallglide
+```json
+{
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+### Network Ownership
+###### better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
+###### this might get you banned in some games with anticheats (Limbobbia)
+```json
+{
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMaxClientSimulationRadius": "2147000000"
+}
+```
+### Low Gravity 1
+###### 'FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
+###### 'DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable) 
+###### credit [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "3"
+}
+```
+### Void Unanchored Parts
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "222"
+}
+```
+### Low Gravity 2
+###### this is more buggy
+```json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalPreconditioner": "100",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+  "DFIntDebugSimPrimalWarmstartForce": "-775",
+  "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
+### Low Gravity 2 Control on Parts Improvement
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100"
+}
+```
+### Tool Fly
+```json
+{
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntNonSolidFloorPercentForceApplication": "-12000",
+    "DFIntDebugSimPrimalPreconditioner": "100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+    "DFIntDebugSimPrimalWarmstartForce": "-775",
+    "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
+### Backwards SpeedHax
+#### Bugginess and Speed depends on the value of `DFIntDebugSimPrimalWarmstartForce` values i recommend are `775` and the value i put.
+##### Also for `DFIntDebugSimPrimalWarmstartVelocity` probably use value `150` but its kinda hard to do it and control
+###### I may have not found this first but i found this by myself btw
+```json
+{
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalWarmstartForce": "-885",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
+  "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### Vehicle Speed 1
+```json
+{
+    "DFIntDebugSimPrimalWarmstartForce": "40",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "41"
+}
+```
+### Vehicle Speed 2
+###### prob the same mess w the values maybe youll get something different
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "50",
+    "DFIntDebugSimPrimalWarmstartVelocity": "103",
+    "DFIntDebugSimPrimalStiffness": "300",
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
+}
+```
 
- <h1 align="center">lol</h1>
+-->
+
+<h1 align="center">Abusive Visuals</h1>
+
+#### Everything exclusively Available on our Discord Server
+
+<!-- This is not rendered yet, Don't forget to remove this.
+
+### Semi Fullbright
+```json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True"
+}
+```
+### Draws a circle under avatars
+```json
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+```
+### Humanoid Outline
+##### Draws an outline around every part and every humanoid
+```json
+{
+    "DFFlagDebugDrawBroadPhaseAABBs": "True"
+}
+```
+### fflag above but more complex
+##### Draws an outline around every body part
+```json
+{
+    "DFFlagDebugDrawBvhNodes": "True"
+}
+```
+### Buggy ZPlane Camera
+```json
+{
+    "FIntCameraFarZPlane": "1"
+}
+```
+### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
+```json
+{
+    "FFlagDebugHumanoidRendering": "True"
+}
+```
+### Xray
+```json
+{
+    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
+}
+```
+
+-->
+
+<h1 align="center">Abusive Game Specific Presets</h1>
+
+### We currently can not provide any at this moment. We are still testing 1 before publish.
+#### You can contribute by making a pull request.
 
 
-    
-          
-            
-    
+<!-- This is not rendered yet, Don't forget to remove this.
 
-          
-          Expand Down
-    
-    
-  
+## Fling Things and People
+### Send people to hell 😈😈
+```json
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-10",
+    "DFIntDebugSimPrimalWarmstartForce": "1750",
+    "DFIntDebugSimPrimalPreconditioner": "-20",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalToleranceInv": "2"
+}
+```
+-->
+
+<h1 align="center">lol</h1>
+
 ### Stop the Chinese from spying on you
 ```json
 {
@@ -1269,7 +1299,9 @@ High
     "DFIntDataSenderMaxBandwidthBps": "150"
 }
 ```
+
 <h1 align="center">Debug</h1>
+
 ### Shows the state of a flag
 ```json
 {
@@ -1358,8 +1390,11 @@ High
     "FFlagDisableFeedbackSoothsayerCheck": "False"
 }
 ```
+
 <h1 align="center">Community Presets</h1>
+
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
+
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1382,4 +1417,89 @@ High
     "DFIntTextureQualityOverride": "1"
 }
 ```
+
 <h1 align="center">Links</h1>
+
+### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
+### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
+### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
+### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
+### [Bloxshade](https://github.com/Extravi/Bloxshade) *[Github Repo Link]*
+### [rbxperf](https://github.com/luafv/rbxperf) *[Github Repo Link]*
+### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
+### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
+### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
+
+<h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
+
+<h3 align="center">
+  <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
+    <img src="https://i.scdn.co/image/ab67616d0000b2738be07181aa935225a6f25d56" width="256" alt="Listen on Spotify">
+  </a>
+</h3>
+
+
+<h3 align="center">You Was Right - Lil Uzi Vert</h3>
+
+
+<h1 align="center">
+  <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
+  </a>
+</h1>
+
+<h3 align="center">Tools</h3>
+<p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
+<p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
+<h3 align="center">Sources</h3>
+<p align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a></p>
+<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
+<p align="center">The people who found these fastflags</p>
+<div align="center">
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Flag</td>
+    <td>bool</td>
+    <td>A boolean variable that can be either true or false.</td>
+  </tr>
+  <tr>
+    <td>Int</td>
+    <td>int</td>
+    <td>An integer variable used to store whole numbers.</td>
+  </tr>
+  <tr>
+    <td>String</td>
+    <td>string</td>
+    <td>A variable used to store a sequence of characters.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Prefix</th>
+    <th>Label</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>Fast</td>
+    <td>A regular fastvariable that is initialized once<br/>and does not change until a new session begins.</td>
+  </tr>
+  <tr>
+    <td>DF</td>
+    <td>Dynamic Fast</td>
+    <td>A fastvariable that can change at run-time, and<br/>automatically updates every 5 minutes.</td>
+  </tr>
+</table>
+</div>
+<h3 align="center">
+  <a href="https://discord.gg/HNe7fzR9xgF">
+    <img src="https://c.tenor.com/fWO4Tmw3BeYAAAAC/tenor.gif" width="465">
+  </a>
+</h3>
+<h4 align="center">© 2024 luafv All Rights Reserved.</h4>
