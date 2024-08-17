@@ -886,7 +886,7 @@ High
 
 #### Everything exclusively Available on our Discord Server
 
-<!-- This is not rendered yet, Don't forget to remove this.
+
 
 ### Tool Desync
 ```json
@@ -1171,7 +1171,7 @@ High
 
 #### Everything exclusively Available on our Discord Server
 
-<!-- This is not rendered yet, Don't forget to remove this.
+
 
 ### Semi Fullbright
 ```json
