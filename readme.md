@@ -1,39 +1,32 @@
 > [!NOTE]
 > If you find our repository useful don't forget to star!
-
 <h4 align="center"><a href="https://github.com/luafv/rbxflags/tree/clean">clean version</a> ✧ <a href="https://discord.gg/HNe7fzR9xg">discord</a> ✧ <a href="https://github.com/luafv/rbxperf">performance list</a> </h4>
-
 <h3 align="center">
   <img src="assets/newgens.gif" width="256" alt="NEWGENS...">
 </h3>
-
 <h1 align="center">rbxflags</h1>
-
 <h4 align="center">Join our Discord Server for early access FastFlags before we publish</h4>
-
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
-
 #### Version: `8.21.24` `Full Edition` `XTra`
 * **18` Currently Listed**
+* **183 Currently Listed**
 * **Updated Links**
 * **Game Specific Category**
 * **`???` `Send people to heaven` `Send people to hell V2` `Send people to hell V1` `Spin 1` `Spin 2**
+* **`???` `Send people to heaven` `Send people to hell V2` `Send people to hell V1` `Spin 1` `Spin 2` `Buggy Speed`**
 * **`Fix Reduced Motion Stuck` >> `Break Reduced Motion V4` This has been rolled out like a long time ago we forgot to remove it**
 - [x] Assign new maintainers
 - [x] Flag Cleanup 2 (We remove all patched FastFlags)
 - [x] Add extra FastFlags that we thought wouldn't be needed to be here
 - [x] Make everything we have public
 - [x] Have atleast 1 Working Fast Flag for Game Categories Section before we actually publish.
-
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
 2. **Navigate to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.**
 3. **Paste in the JSON.**
 4. **Save and your good to go!**
-
 <img src="/assets/tutorial260.gif" width="750"/>
-
 ## Normal Roblox Bootstrapper  How to Use:
 ###### You can also do Roblox Studio
 1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
@@ -42,17 +35,13 @@
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
 5. **Save and you're good to go!**
 ###### Do note that after roblox updates you have to do this process again
-
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
-
 ## How to Use _PlaceFilter
 1. **Add `_PlaceFilter` after the Fast Flag name.**
 2. **Add a semicolon after the Value (`;`). Examples: `True;`, `1;`.**
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
-
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
-
 # List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
 * **[Lightning Technologies](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file##lightning-technologies)**
@@ -67,13 +56,9 @@
 * **[lol](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#debug)**
 * **[Links](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#links)**
-
 <img src="assets/bitdancer.png" width="888"/>
-
 <h3 align="center">꧖ꦿꦸ</h3>
-
 <h1 align="center">Rendering API</h1>
-
 ### Metal
 ###### MacOS Only
 ```json
@@ -107,9 +92,7 @@
     "FFlagDebugGraphicsPreferD3D11": "True"
 }
 ```
-
 <h1 align="center">Lightning Technologies</h1>
-
 ### Voxel Lighting (Phase 1)
 ```json
 {
@@ -128,9 +111,7 @@
     "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
-
 <h1 align="center">Graphical Settings</h1>
-
 ### Makes stuff slightly brighter
 ```json
 {
@@ -195,16 +176,12 @@
 }
 ```
 <h4 align="center">FRM Levels</h4>
-
 ```
 Low
-
 1 = 3
 2 = 2
 3 = 6
-
 High
-
 4 = 7
 5 = 11
 6 = 14
@@ -366,9 +343,7 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-
 <h1 align="center">Quality of Life</h1>
-
 ### Disable Captures Keybind
 ```json
 {
@@ -531,9 +506,7 @@ High
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
-
 <h1 align="center">User Interface/Visuals</h1>
-
 ### Break Reduced Motion V4
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
@@ -782,9 +755,7 @@ High
     "FFlagDebugEnableNewWebView2DevTool": "True"
 }
 ```
-
 <h1 align="center">User Interface/Visuals Experimental</h1>
-
 ### Custom Accessory Positions
 ```
 {
@@ -849,9 +820,7 @@ High
     "DFStringDefaultAvatarDeathType": "Ragdoll"
 }
 ```
-
 <h1 align="center">Audio Related</h1>
-
 ### Allows you to change voice chat distance 
 ###### default: [Min 7 Max 80]
 ```json
@@ -892,11 +861,8 @@ High
     "FFlagDebugRomarkMockingAudioDevices": "True"
 }
 ```
-
 <h1 align="center">Physics (Abusive)</h1>
-
 #### Support me for finding some of these FastFlags (With credits on @burgerboxer) by buying https://www.roblox.com/game-pass/895489152/ or boosting our server!
-
 ### Tool Desync
 ```json
 {
@@ -1174,6 +1140,7 @@ High
 }
 ```
 ### ???
+### GRAH GRAH
 ```json
 {
     "DFIntDebugSimPrimalLineSearch": "1",
@@ -1182,7 +1149,6 @@ High
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
-
 ### Spin 1
 ###### @bloodraven
 ```json
@@ -1203,12 +1169,27 @@ High
 ###### kezcn?
 ```json
 {
-
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalLineSearch": "50",
     "DFIntDebugSimPrimalWarmstartVelocity": "103",
     "DFIntDebugSimPrimalStiffness": "300",
     "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
+}
+```
+### Speed (Not backwards but more buggy)
+```
+{
+    "DFIntDebugSimPrimalWarmstartForce": "-285",
+    "DFIntDebugSimPrimalWarmstartVelocity": "750",
+    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalPreconditioner": "100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalToleranceInv": "10",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntDebugSimPrimalLineSearch": "100"
 }
 ```
 
@@ -1268,11 +1249,8 @@ High
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
-
 <h1 align="center">Abusive Game Specific Presets</h1>
-
 #### You can contribute by making a pull request.
-
 ## Fling Things and People
 ### Send people to hell 😈😈
 ```json
@@ -1315,9 +1293,7 @@ High
     "FFlagDebugSimDefaultPrimalSolver": "True",
 }
 ```
-
 <h1 align="center">lol</h1>
-
 ### Stop the Chinese from spying on you
 ```json
 {
@@ -1374,9 +1350,7 @@ High
     "DFIntDataSenderMaxBandwidthBps": "150"
 }
 ```
-
 <h1 align="center">Debug</h1>
-
 ### Shows the state of a flag
 ```json
 {
@@ -1465,11 +1439,8 @@ High
     "FFlagDisableFeedbackSoothsayerCheck": "False"
 }
 ```
-
 <h1 align="center">Community Presets</h1>
-
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
-
 ### no idea what this is
 ###### im in a 4x4 ye i got my wrist up
 ```json
@@ -1504,9 +1475,7 @@ High
     "DFIntTextureQualityOverride": "1"
 }
 ```
-
 <h1 align="center">Links</h1>
-
 ### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
@@ -1516,25 +1485,18 @@ High
 ### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
 ### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
-
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
-
 <h3 align="center">
   <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
     <img src="https://i.scdn.co/image/ab67616d0000b2738be07181aa935225a6f25d56" width="256" alt="Listen on Spotify">
   </a>
 </h3>
-
-
 <h3 align="center">You Was Right - Lil Uzi Vert</h3>
-
-
 <h1 align="center">
   <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
-
 <h3 align="center">Tools</h3>
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
@@ -1565,7 +1527,6 @@ High
     <td>A variable used to store a sequence of characters.</td>
   </tr>
 </table>
-
 <table>
   <tr>
     <th>Prefix</th>
