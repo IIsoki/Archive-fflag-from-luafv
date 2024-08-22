@@ -8,6 +8,7 @@
 <h4 align="center">Join our Discord Server for early access FastFlags before we publish</h4>
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
+
 #### Version: `8.21.24` `Full Edition` `XTra`
 * **18` Currently Listed**
 * **183 Currently Listed**
@@ -27,6 +28,7 @@
 3. **Paste in the JSON.**
 4. **Save and your good to go!**
 <img src="/assets/tutorial260.gif" width="750"/>
+
 ## Normal Roblox Bootstrapper  How to Use:
 ###### You can also do Roblox Studio
 1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
