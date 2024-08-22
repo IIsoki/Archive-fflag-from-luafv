@@ -96,6 +96,7 @@
 }
 ```
 <h1 align="center">Lightning Technologies</h1>
+
 ### Voxel Lighting (Phase 1)
 ```json
 {
@@ -201,6 +202,7 @@ High
     "FFlagFixGraphicsQuality": "True"
 }
 ```
+
 ### Low Render Distance
 ###### [FRM](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#frm-levels)
 ```json
@@ -348,6 +350,7 @@ High
 }
 ```
 <h1 align="center">Quality of Life</h1>
+
 ### Disable Captures Keybind
 ```json
 {
@@ -531,6 +534,7 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
+
 ### V1 Menu
 ```json
 {
@@ -760,6 +764,7 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
+
 ### Custom Accessory Positions
 ```
 {
@@ -816,6 +821,7 @@ High
     "FFlagEnableChromePinnedChat": "True"
 }
 ```
+
 ### Ragdoll Death Type
 #### Studio Only
 ###### I tried `Ragdoll` to see if anything would happen lol this is how i found this (found this long time ago)
@@ -825,6 +831,7 @@ High
 }
 ```
 <h1 align="center">Audio Related</h1>
+
 ### Allows you to change voice chat distance 
 ###### default: [Min 7 Max 80]
 ```json
@@ -866,6 +873,7 @@ High
 }
 ```
 <h1 align="center">Physics (Abusive)</h1>
+
 #### Support me for finding some of these FastFlags (With credits on @burgerboxer) by buying https://www.roblox.com/game-pass/895489152/ or boosting our server!
 ### Tool Desync
 ```json
@@ -1198,6 +1206,7 @@ High
 ```
 
 <h1 align="center">Abusive Visuals</h1>
+
 ### Semi Fullbright
 ```json
 {
@@ -1253,6 +1262,7 @@ High
 }
 ```
 <h1 align="center">Abusive Game Specific Presets</h1>
+
 #### You can contribute by making a pull request.
 ## Fling Things and People
 ### Send people to hell 😈😈
@@ -1297,12 +1307,14 @@ High
 }
 ```
 <h1 align="center">lol</h1>
+
 ### Stop the Chinese from spying on you
 ```json
 {
     "FStringTencentAuthPath": "null"
 }
 ```
+
 ### Don't Touch The Wall! 1
 ```json
 {
@@ -1360,6 +1372,7 @@ High
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
+
 ###### e.g
 ```json
 {
@@ -1444,6 +1457,7 @@ High
 ```
 <h1 align="center">Community Presets</h1>
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
+
 ### no idea what this is
 ###### im in a 4x4 ye i got my wrist up
 ```json
