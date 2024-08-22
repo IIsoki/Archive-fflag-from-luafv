@@ -36,11 +36,13 @@
 5. **Save and you're good to go!**
 ###### Do note that after roblox updates you have to do this process again
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
+
 ## How to Use _PlaceFilter
 1. **Add `_PlaceFilter` after the Fast Flag name.**
 2. **Add a semicolon after the Value (`;`). Examples: `True;`, `1;`.**
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
+
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 # List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
@@ -59,6 +61,7 @@
 <img src="assets/bitdancer.png" width="888"/>
 <h3 align="center">꧖ꦿꦸ</h3>
 <h1 align="center">Rendering API</h1>
+
 ### Metal
 ###### MacOS Only
 ```json
@@ -168,6 +171,7 @@
     "DFFlagDisableDPIScale": "True"
 }
 ```
+
 ### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
 ###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
 ```json
@@ -1194,7 +1198,6 @@ High
 ```
 
 <h1 align="center">Abusive Visuals</h1>
-
 ### Semi Fullbright
 ```json
 {
