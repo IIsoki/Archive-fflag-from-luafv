@@ -116,6 +116,7 @@
 }
 ```
 <h1 align="center">Graphical Settings</h1>
+
 ### Makes stuff slightly brighter
 ```json
 {
@@ -507,6 +508,7 @@ High
     "FIntCameraMaxZoomDistance": "9999"
 }
 ```
+
 ### Exclusive Fullscreen
 ```json
 {
@@ -515,6 +517,7 @@ High
 ```
 <h1 align="center">User Interface/Visuals</h1>
 ### Break Reduced Motion V4
+
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
 ```json
@@ -522,6 +525,7 @@ High
     "FFlagFixReducedMotionStuckIGM2": "False"
 }
 ```
+
 ### Revert "Charts" back to Discovery
 ```json
 {
@@ -821,7 +825,6 @@ High
     "FFlagEnableChromePinnedChat": "True"
 }
 ```
-
 ### Ragdoll Death Type
 #### Studio Only
 ###### I tried `Ragdoll` to see if anything would happen lol this is how i found this (found this long time ago)
@@ -1206,7 +1209,6 @@ High
 ```
 
 <h1 align="center">Abusive Visuals</h1>
-
 ### Semi Fullbright
 ```json
 {
@@ -1262,7 +1264,6 @@ High
 }
 ```
 <h1 align="center">Abusive Game Specific Presets</h1>
-
 #### You can contribute by making a pull request.
 ## Fling Things and People
 ### Send people to hell 😈😈
@@ -1307,14 +1308,12 @@ High
 }
 ```
 <h1 align="center">lol</h1>
-
 ### Stop the Chinese from spying on you
 ```json
 {
     "FStringTencentAuthPath": "null"
 }
 ```
-
 ### Don't Touch The Wall! 1
 ```json
 {
@@ -1372,7 +1371,6 @@ High
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
-
 ###### e.g
 ```json
 {
@@ -1457,7 +1455,6 @@ High
 ```
 <h1 align="center">Community Presets</h1>
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
-
 ### no idea what this is
 ###### im in a 4x4 ye i got my wrist up
 ```json
