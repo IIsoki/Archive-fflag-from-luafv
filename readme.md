@@ -1211,6 +1211,7 @@ High
 ```
 
 <h1 align="center">Abusive Visuals</h1>
+
 ### Semi Fullbright
 ```json
 {
@@ -1266,6 +1267,7 @@ High
 }
 ```
 <h1 align="center">Abusive Game Specific Presets</h1>
+
 #### You can contribute by making a pull request.
 ## Fling Things and People
 ### Send people to hell 😈😈
@@ -1310,12 +1312,14 @@ High
 }
 ```
 <h1 align="center">lol</h1>
+
 ### Stop the Chinese from spying on you
 ```json
 {
     "FStringTencentAuthPath": "null"
 }
 ```
+
 ### Don't Touch The Wall! 1
 ```json
 {
@@ -1367,6 +1371,7 @@ High
 }
 ```
 <h1 align="center">Debug</h1>
+
 ### Shows the state of a flag
 ```json
 {
@@ -1457,6 +1462,7 @@ High
 ```
 <h1 align="center">Community Presets</h1>
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
+
 ### no idea what this is
 ###### im in a 4x4 ye i got my wrist up
 ```json
@@ -1492,6 +1498,7 @@ High
 }
 ```
 <h1 align="center">Links</h1>
+
 ### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
