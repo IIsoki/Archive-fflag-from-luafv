@@ -23,12 +23,14 @@
 
 ## Normal Roblox Bootstrapper  How to Use:
 ## Normal Roblox Bootstrapper How to Use:
+
 ###### You can also do Roblox Studio
 1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
 2. **Identify the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ You can do this for Roblox Studio too.**
 3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
 5. **Save and you're good to go!**
+
 ###### Do note that after roblox updates you have to do this process again
 
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
@@ -51,6 +53,7 @@
 2. **Add a semicolon after the Value (`;`). Examples: `True;`, `1;`.**
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
+
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 # List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
@@ -69,6 +72,7 @@
 <img src="assets/bitdancer.png" width="888"/>
 <h3 align="center">꧖ꦿꦸ</h3>
 <h1 align="center">Rendering API</h1>
+
 ### Metal
 > [!IMPORTANT]
 > **MacOS Only**
@@ -106,6 +110,7 @@
 }
 ```
 <h1 align="center">Lightning Technologies</h1>
+
 ### Voxel Lighting (Phase 1)
 ```json
 {
@@ -138,6 +143,7 @@
     "FFlagRenderFixFog": "True"
 }
 ```
+
 ### HyperThreading
 ```json
 {
@@ -211,6 +217,7 @@ High
 9 = 18
 10 = 21
 ```
+
 ### FRM 21 Graphics Quality Slider
 ```json
 {
@@ -391,6 +398,7 @@ High
 ### Allows you to customize which languages are available for the chat translation feature
 > [!IMPORTANT]
 > English cannot be removed.
+
 ###### @thefrenchguy4
 ```json
 {
@@ -480,6 +488,7 @@ High
     "FFlagDebugDisableTelemetryV2Stat": "True"
 }
 ```
+
 ### Surf the web inside of Roblox
 > [!IMPORTANT]
 > **Click the Beta badge or the 13+ badge to open the webview browser.**
@@ -490,6 +499,7 @@ High
     "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
 }
 ```
+
 ### MTU
 > [!TIP]
 > **Identify the Current MTU**
@@ -602,6 +612,7 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals</h1>
+
 ### Break Reduced Motion V4
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
@@ -859,6 +870,7 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
+
 ### Custom Accessory Positions
 ```
 {
@@ -928,6 +940,7 @@ High
 }
 ```
 <h1 align="center">Audio Related</h1>
+
 ### Allows you to change voice chat distance 
 > [!NOTE]
 > **Default: [Min 7 Max 80]**
@@ -974,6 +987,7 @@ High
 <h1 align="center">Physics (Abusive)</h1>
 > [!NOTE]
 > Support me for finding some of these FastFlags (With credits on @burgerboxer) by buying https://www.roblox.com/game-pass/895489152/ or boosting our server!
+
 ### Tool Desync
 ```json
 {
@@ -1330,6 +1344,7 @@ High
 }
 ```
 <h1 align="center">Abusive Visuals</h1>
+
 ### Semi Fullbright
 ```json
 {
@@ -1365,6 +1380,7 @@ High
     "DFFlagDebugDrawBvhNodes": "True"
 }
 ```
+
 ### Buggy ZPlane Camera
 ```json
 {
@@ -1387,6 +1403,7 @@ High
 }
 ```
 <h1 align="center">Abusive Game Specific Presets</h1>
+
 #### You can contribute by making a pull request.
 ## Fling Things and People
 ### Send people to hell 😈😈
@@ -1432,6 +1449,7 @@ High
 }
 ```
 <h1 align="center">lol</h1>
+
 ### Stop the Chinese from spying on you
 ```json
 {
@@ -1489,6 +1507,7 @@ High
 }
 ```
 <h1 align="center">Debug</h1>
+
 ### Shows the state of a flag
 ```json
 {
@@ -1591,6 +1610,7 @@ High
 ```
 <h1 align="center">Community Presets</h1>
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
+
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1614,6 +1634,7 @@ High
 }
 ```
 <h1 align="center">Links</h1>
+
 ### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
