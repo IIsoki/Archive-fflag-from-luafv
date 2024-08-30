@@ -8,6 +8,7 @@
 <h4 align="center">Join our Discord Server for early access FastFlags before we publish</h4>
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
+
 #### Version: `8.28.24` `1 Year Anniversary`
 * **190 Currently Listed**
 * **`Self Explanatory 7`** **`Removes translated supported message on join`** **`Allows you to customize which languages are available for the chat translation feature`** **`Increased Particles in Low graphics quality`**
