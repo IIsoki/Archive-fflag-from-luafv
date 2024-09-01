@@ -1160,6 +1160,18 @@ High
     "DFIntDebugSimPrimalStiffness": "0"
 }
 ```
+### Noclip3+
+#### koclip
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFFlagDebugSimPrimalFeedback": "True",
+    "DFIntDebugSimPrimalStiffnessMax": "0",
+    "DFIntDebugSimPrimalStiffnessMin": "0",
+    "DFIntMaximumFreefallMoveTimeInTenths": "1000"
+}
+
+```
 ### Freeze
 ```json
 {
