@@ -9,33 +9,29 @@
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Version: `8.28.24` `1 Year Anniversary`
-* **190 Currently Listed**
+#### Version: `9.1.24` `WAH!`
+* **192 Currently Listed**
 * **`Self Explanatory 7`** **`Removes translated supported message on join`** **`Allows you to customize which languages are available for the chat translation feature`** **`Increased Particles in Low graphics quality`**
 * **Updated `Custom Accessory Positions` to work as of `8.26.24`**
+* **`Blue Theme`** **`5 Decimal Sensitivity Precision`**
 * **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
+
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
 2. **Navigate to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.**
 3. **Paste in the JSON.**
 4. **Save and your good to go!**
-
 <img src="/assets/tutorial260.gif" width="750"/>
 
-## Normal Roblox Bootstrapper  How to Use:
 ## Normal Roblox Bootstrapper How to Use:
-
 ###### You can also do Roblox Studio
 1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
 2. **Identify the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ You can do this for Roblox Studio too.**
 3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
 5. **Save and you're good to go!**
-
 ###### Do note that after roblox updates you have to do this process again
-
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
-
 ## Android Roblox How to Use: (Not Recommended)
 #### Why is it not recommended? Roblox is adding an anti-tamper to Android
 ###### W.I.P
@@ -49,13 +45,19 @@
 8.
 ###### once your Roblox build expires you have to do this process again
 
+## Sober How to Use:
+###### W.I.P
+1.
+2.
+3.
+
 ## How to Use _PlaceFilter
 1. **Add `_PlaceFilter` after the Fast Flag name.**
 2. **Add a semicolon after the Value (`;`). Examples: `True;`, `1;`.**
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
-
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
+
 # List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
 * **[Lightning Technologies](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file##lightning-technologies)**
@@ -131,6 +133,7 @@
 }
 ```
 <h1 align="center">Graphical Settings</h1>
+
 ### Increased Particles on low graphics
 ###### @teeenoob
 ```json
@@ -144,7 +147,6 @@
     "FFlagRenderFixFog": "True"
 }
 ```
-
 ### HyperThreading
 ```json
 {
@@ -388,6 +390,13 @@ High
 }
 ```
 <h1 align="center">Quality of Life</h1>
+
+### 5 Decimal Sensitivity Precision
+```json
+{
+    "FFlagFixSensitivityTextPrecision": "False"
+}
+```
 ### Removes translated supported message on join
 > [!NOTE]
 > `"Roblox automatically translates supported languages in chat."`
@@ -399,7 +408,6 @@ High
 ### Allows you to customize which languages are available for the chat translation feature
 > [!IMPORTANT]
 > English cannot be removed.
-
 ###### @thefrenchguy4
 ```json
 {
@@ -489,7 +497,6 @@ High
     "FFlagDebugDisableTelemetryV2Stat": "True"
 }
 ```
-
 ### Surf the web inside of Roblox
 > [!IMPORTANT]
 > **Click the Beta badge or the 13+ badge to open the webview browser.**
@@ -500,7 +507,6 @@ High
     "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
 }
 ```
-
 ### MTU
 > [!TIP]
 > **Identify the Current MTU**
@@ -748,6 +754,12 @@ High
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
+### Blue Theme
+```json
+{
+    "FFlagLuaAppEnableFoundationColors": "True"
+}
+```
 ### No Transparency V4 Menu **(2023)**
 ```json
 {
@@ -871,7 +883,6 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
-
 ### Custom Accessory Positions
 ```
 {
@@ -883,6 +894,7 @@ High
     "FFlagAccessoryAdjustmentEnabled4": "True"
 }
 ```
+
 ### Enable First Time User Experience for Chrome UI
 ```json
 {
@@ -1381,7 +1393,6 @@ High
     "DFFlagDebugDrawBvhNodes": "True"
 }
 ```
-
 ### Buggy ZPlane Camera
 ```json
 {
@@ -1450,13 +1461,13 @@ High
 }
 ```
 <h1 align="center">lol</h1>
-
 ### Stop the Chinese from spying on you
 ```json
 {
     "FStringTencentAuthPath": "null"
 }
 ```
+
 ### Don't Touch The Wall! 1
 ```json
 {
